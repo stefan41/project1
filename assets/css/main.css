@@ -31,7 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*	main navigation styles 	*/
 .main-navigation {
-  z-index: 555;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 222;
+  width: 100%;
+  margin: 2rem 2rem 0 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -47,12 +52,11 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   text-decoration: none;
   padding: 0.5rem;
-  color: #666;
-  border: 1px dotted #999;
+  color: #d9d9d9;
   transition: 0.3s all ease-out;
 }
 .main-navigation a:hover {
-  color: #333;
+  color: #fff;
 }
 
 /* hero section 	*/
@@ -68,6 +72,14 @@ h1, h2, h3, h4, h5, h6 {
 .hero-section .innerWrapper {
   width: 60%;
   text-align: center;
+}
+.hero-section .title {
+  font-weight: bold;
+  margin: 2rem 0;
+  font-size: 200%;
+}
+.hero-section p {
+  font-size: 120%;
 }
 .hero-section:after {
   content: "";

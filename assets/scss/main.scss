@@ -3,7 +3,12 @@
 /*	main navigation styles 	*/
 
 .main-navigation	{
-	z-index: 555;
+	background: transparent;
+	position: fixed;
+	top: 0;
+	z-index: 222;
+	width: 100%;
+	margin: 2rem 2rem 0 0;
 	display: flex;
 	justify-content: flex-end;
 
@@ -21,13 +26,13 @@
 		display: inline-block;
 		text-decoration: none;
 		padding: .5rem;
-		color: #666;
-		border: 1px dotted #999;
+		color: #d9d9d9;
+		//border: 1px dotted #999;
 
 		transition: .3s all ease-out;
 
 		&:hover {
-			color: #333;
+			color: #fff;
 		}
 	}
 }
@@ -53,6 +58,16 @@
 	.innerWrapper	{
 		width: 60%;
 		text-align: center;
+	}
+
+	.title  	{
+		font-weight: bold;
+		margin: 2rem 0;
+		font-size: 200%;
+	}
+
+	p {
+		font-size: 120%;
 	}
 
 	&:after {
