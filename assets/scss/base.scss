@@ -1,0 +1,36 @@
+/*	fonts 	*/
+
+
+$heading_font: 'Montserrat', sans-serif;
+$body_font: 'Open Sans', sans-serif;
+
+*	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	&:focus	{
+		outline: none;
+	}
+}
+
+html, body 	{
+	margin: 0;
+	padding: 0;
+}
+
+html 	{
+	font-size: 62.5%;
+}
+
+body 	{
+	font-size: 1.6rem;
+	font-weight: normal;
+	font-family: $body_font;
+	color: #333;
+	background-color: #fcfcfc;
+}
+
+h1, h2, h3, h4, h5, h6 	{
+	font-family: $heading_font;
+}
